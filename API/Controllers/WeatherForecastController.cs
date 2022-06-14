@@ -5,8 +5,8 @@ namespace API.Controllers;
 
 
 [ApiController]
-[Route("[controller]")]
-public class WeatherForecastController : ControllerBase
+[Route("[controller]")]//how is the user going to get to the API controller from the client?
+public class WeatherForecastController : ControllerBase //Controller is derived from controller base
 {
     private static readonly string[] Summaries = new[]
     {
